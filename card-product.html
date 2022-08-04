@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fortnite.market</title>
+	<!-- Chatra {literal} -->
+	<script defer>
+		(function (d, w, c) {
+			w.ChatraID = 'ZfknHTkvBCy3MPkSE';
+			var s = d.createElement('script');
+			w[c] = w[c] || function () {
+				(w[c].q = w[c].q || []).push(arguments);
+			};
+			s.async = true;
+			s.src = 'https://call.chatra.io/chatra.js';
+			if (d.head) d.head.appendChild(s);
+		})(document, window, 'Chatra');
+	</script>
+	<!-- /Chatra {/literal} -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__container container">
+
+			<div class="header__row">
+				<div class="header__logo">
+					<a href="./index.html">
+						<img src="./images/icons//logo.svg" alt="logo" />
+					</a>
+				</div>
+				<ul class="header__menu">
+					<li class="header__link"><a href="./index.html">Главная</a></li>
+					<li class="header__link"><a href="./guarantees.html">Гарантии</a></li>
+					<li class="header__link"><a href="./news.html">Новости</a></li>
+					<li class="header__link"><a href="./reviews.html">Отзывы</a></li>
+					<li class="header__link"><a href="./distribution.html">Раздача</a></li>
+				</ul>
+				<div class="header__btns">
+					<a href="tel:" class="header__btn-call">
+						<img src="./images/icons/call.svg" alt="phone ico">
+					</a>
+					<button class="header__btn-login" data-micromodal-trigger="login-modal">Войти</button>
+				</div>
+				<!-- NavBtn -->
+				<button class="nav-btn">
+					<span class="nav-btn-icon"></span>
+				</button>
+
+				<!-- MobNav -->
+				<div class="mobile-nav">
+					<div class="header__logo">
+						<img src="./images/icons//logo.svg" alt="logo" />
+					</div>
+					<div class="mobile-nav__item">
+
+						<div class="header__btns">
+							<a href="tel:" class="header__btn-call">
+								<img src="./images/icons/call.svg" alt="phone ico">
+							</a>
+							<button class="header__btn-login">Войти</button>
+						</div>
+
+						<ul>
+							<li class="header__link"><a href="./index.html">Главная</a></li>
+							<li class="header__link"><a href="./guarantees.html">Гарантии</a></li>
+							<li class="header__link"><a href="./news/html">Новости</a></li>
+							<li class="header__link"><a href="./reviews.html">Отзывы</a></li>
+							<li class="header__link"><a href="./distribution.html">Раздача</a></li>
+						</ul>
+
+					</div>
+				</div>
+				<!-- //MobNav -->
+			</div>
+		</div>
+
+	</header>
+
+
+	<!-- MODAL LOGIN-FORM -->
+	<section class="login-modal">
+		<div class="modal micromodal-slide" id="login-modal" aria-hidden="true">
+			<div class="modal__overlay" tabindex="-1" data-custom-close="login-modal">
+				<div class="modal__container" role="dialog" aria-modal="true">
+					<form class="login-modal__form login-form">
+						<h2 class="login-modal__title">Войти</h2>
+
+						<label class="login-form__label" for="username">Ваша почта</label>
+						<input class="login-form__input" type="text" id="username" name="username"
+							placeholder="example@gmail.com">
+
+						<label class="login-form__label" for="password">Ваш пароль</label>
+						<input class="login-form__input" type="text" id="password" name="пароль" placeholder=" пароль">
+						<a class="login-form__forgot-password" href="#!">Забыли пароль?</a>
+						<div class="modal__footer">
+							<button type="submit" class="login-form__submit">Войти</button>
+
+							<p class="login-form__text">Или войдите используя:</p>
+							<div class="login-form__row">
+								<a class="login-form__link-auth" href="#!">
+									<img src="./images/google.png" alt="google ico auth">
+								</a>
+								<a class="login-form__link-auth" href="#!">
+									<img src="./images/vk.png" alt="vk ico auth">
+								</a>
+								<a class="login-form__link-auth" href="#!">
+									<img src="./images/facebook.png" alt="facebook ico auth">
+								</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //MODAL LOGIN-FORM -->
+
+	<main class="product-card-main" id="scrollUp">
+		<section class="breadcrumbs">
+			<div class="container">
+				<nav aria-label="Breadcrumb" class="breadcrumb">
+					<ul class="breadcrumb__list">
+						<li class="breadcrumb__link"><a href="#"> Магазин </a></li>
+						<li class="breadcrumb__link"><a href="#">Скины </a></li>
+						<li class="breadcrumb__link breadcrumb__link--current"><span aria-current="page">Снегобой</span>
+						</li>
+					</ul>
+					<a href="./index.html" class="btn-prev-page">Назад </a>
+				</nav>
+			</div>
+		</section>
+
+		<section class="card-product">
+			<div class="card-product__container container">
+				<div class="card-product__card card">
+					<div class="card__item">
+						<div class="card__heading">
+							<h1 class="card__title">Купить скин Снегобой</h1>
+							<span class="card__sale sale">-45%</span>
+						</div>
+						<!-- Rating -->
+						<div class="card__rating-container">
+							<!-- <div class="card__rating rating rating_set " data-ajax="true">
+								<div class="rating__body">
+									<div class="rating__active"></div>
+									<div class="rating__items">
+										<input type="radio" class="rating__item" value="1" name="rating">
+										<input type="radio" class="rating__item" value="2" name="rating">
+										<input type="radio" class="rating__item" value="3" name="rating">
+										<input type="radio" class="rating__item" value="4" name="rating">
+										<input type="radio" class="rating__item" value="5" name="rating">
+									</div>
+								</div>
+								<div class="rating__value">3.6</div>
+							</div> -->
+
+
+							<div id="rateYo" data-rateyo-half-star="true"></div>
+
+							<div class="rating__grade rating-grade">
+								<span class="rating-grade__counter">641</span>
+								<span>оценок</span>
+							</div>
+						</div>
+						<!-- //Rating -->
+						<p class="card__text">Снегобой носит синие штаны, два ремня, массивную красную обувь,
+							свитер с полоской снежинок, патронташ, гранаты <br>
+							в форме снеговиков и кинжал в футляре морковки! <br>
+							Его морда светится новогодним настроением, а шляпка кокетливо намекает на <br>
+							обреченность оппонентов! <br>
+
+							Не растайте под напором этих ледяных мышц! <br>
+							Очень атмосферный новогодний скин. <br>
+							Отлично маскируется на зимних локациях .
+						</p>
+						<p class="card__promocode">промокод на скидку: fort</p>
+						<div class="card__info card-info">
+							<div class="card-info__box">
+								<div class="card-info__text">
+									<p class="card-info__type"> Тип : ЭПИЧЕСКИЙ</p>
+									<p class="card-info__added">Добавлен : Глава 1, Сезон 3 </p>
+									<p class="card-info__release"> Дата выхода : 14 Декабря 2018 </p>
+								</div>
+								<div class="card-info__text">
+									<p class="card-info__after-buy"> После оплаты вы получите :</p>
+									<p class="card-info__skin">• Cкин: СНЕГОБОЙ</p>
+									<p class="card-info__plus"> +Карту активации на:</p>
+									<p class="card-info__gift"> 750 В-БАКСОВ в подарок!</p>
+								</div>
+							</div>
+							<div class="card-info__buy">
+								<button class="card__btn-buy btn-open" data-micromodal-trigger="payment-modal">Купить</button>
+								<span class="card__price">500 p</span>
+							</div>
+
+						</div>
+					</div>
+					<div class="card__item">
+						<img class="card__img" src="./images/card-img1.png" alt="Снегобой">
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="popular-offers-section">
+
+			<div class="container">
+				<div class="popular-offers">
+					<h2 class="popular-offers__title title">Рекомендуемые товары</h2>
+
+					<!-- Slider main container -->
+					<div class="popular-offers__slider swiper ">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper popular-offers__wrapper">
+							<!-- Slides -->
+							<div class="popular-offers__slide swiper-slide ">
+								<a class="popular-offers__item card-item" href="./card-product.html">
+									<div class="card-item__box">
+										<div class="card-item__elipse"></div>
+										<p class="card-item__name">Джон Уик</p>
+										<div class="card-item__img">
+											<img src="./images/product-characters/John-Wick.png" alt="john-wick">
+										</div>
+										<p class="card-item__price">599 р</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="popular-offers__slide swiper-slide ">
+								<a class="popular-offers__item card-item" href="./card-product.html">
+									<div class="card-item__box">
+										<div class="card-item__elipse"></div>
+										<p class="card-item__name">Какаши</p>
+										<div class="card-item__img">
+											<img src="./images/product-characters/kakashi.png" alt="kakashi">
+										</div>
+										<p class="card-item__price">599 р</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="popular-offers__slide swiper-slide ">
+								<a class="popular-offers__item card-item" href="./card-product.html">
+									<div class="card-item__box">
+										<div class="card-item__elipse"></div>
+										<p class="card-item__name">снегобой</p>
+										<div class="card-item__img">
+											<img src="./images/product-characters/snowboy.png" alt="snow-boy">
+										</div>
+										<p class="card-item__price">599 р</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="popular-offers__slide swiper-slide ">
+								<a class="popular-offers__item card-item" href="./card-product.html">
+									<div class="card-item__box">
+										<div class="card-item__elipse"></div>
+										<p class="card-item__name">в-баксы</p>
+										<div class="card-item__img small-img">
+											<img src="./images/product-characters/b-cash.png" alt="b-cash">
+										</div>
+										<p class="card-item__price">599 р</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="popular-offers__slide swiper-slide ">
+								<a class="popular-offers__item card-item" href="./card-product.html">
+									<div class="card-item__box">
+										<div class="card-item__elipse"></div>
+										<p class="card-item__name">в-баксы</p>
+										<div class="card-item__img small-img">
+											<img src="./images/product-characters/b-cash.png" alt="b-cash">
+										</div>
+										<p class="card-item__price">599 р</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="popular-offers__slide swiper-slide ">
+								<a class="popular-offers__item card-item" href="./card-product.html">
+									<div class="card-item__box">
+										<div class="card-item__elipse"></div>
+										<p class="card-item__name">Джон Уик</p>
+										<div class="card-item__img">
+											<img src="./images/product-characters/John-Wick.png" alt="john-wick">
+										</div>
+										<p class="card-item__price">599 р</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="popular-offers__slide swiper-slide ">
+								<a class="popular-offers__item card-item" href="./card-product.html">
+									<div class="card-item__box">
+										<div class="card-item__elipse"></div>
+										<p class="card-item__name">Какаши</p>
+										<div class="card-item__img">
+											<img src="./images/product-characters/kakashi.png" alt="kakashi">
+										</div>
+										<p class="card-item__price">599 р</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="popular-offers__slide swiper-slide ">
+								<a class="popular-offers__item card-item" href="./card-product.html">
+									<div class="card-item__box">
+										<div class="card-item__elipse"></div>
+										<p class="card-item__name">снегобой</p>
+										<div class="card-item__img">
+											<img src="./images/product-characters/snowboy.png" alt="snow-boy">
+										</div>
+										<p class="card-item__price">599 р</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="popular-offers__slide swiper-slide ">
+								<a class="popular-offers__item card-item" href="./card-product.html">
+									<div class="card-item__box">
+										<div class="card-item__elipse"></div>
+										<p class="card-item__name">в-баксы</p>
+										<div class="card-item__img small-img">
+											<img src="./images/product-characters/b-cash.png" alt="b-cash">
+										</div>
+										<p class="card-item__price">599 р</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="popular-offers__slide swiper-slide ">
+								<a class="popular-offers__item card-item" href="./card-product.html">
+									<div class="card-item__box">
+										<div class="card-item__elipse"></div>
+										<p class="card-item__name">в-баксы</p>
+										<div class="card-item__img small-img">
+											<img src="./images/product-characters/b-cash.png" alt="b-cash">
+										</div>
+										<p class="card-item__price">599 р</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="popular-offers__pagination swiper-pagination"></div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<div class="modal micromodal-slide" id="payment-modal" aria-hidden="true">
+		<div class="modal__overlay" tabindex="-1" data-micromodal-close data-custom-close="payment-modal">
+			<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+				<main class="modal__content" id="modal-1-content">
+					<form action="#" class="payment-form">
+
+						<div class="payment-form-step payment-form-prepare" data-count="1">
+							<div class="payment-form__container">
+								<h4 class="payment-form__title">Подготовка к оплате счета</h4>
+								<p class="payment-form__text">
+									Перед оплатой вашего счета необходимо указать свой email адрес, на который мы
+									отправим
+									письмо с
+									кодом активации и
+									чек.</p>
+								<div class="payment-form__form">
+									<label for="email" class="payment-form__email">
+										<input class="payment-form__input" type="email" placeholder="Ваш email">
+									</label>
+									<p class="payment-form__prompt">Введите email адрес здесь или укажите его в
+										настройках
+										<a href="#">профиля</a>
+									</p>
+
+									<h4 class="payment-form__title">у вас есть промокод?</h4>
+									<label for="text" class="payment-form__promocode">
+										<input class="payment-form__input" type="text" placeholder="Промокод на скидку">
+										<button class="payment-form__btn-check btn">проверить</button>
+									</label>
+									<p class="payment-form__text">
+										Скидочный промокод можно получить участвуя в различных акциях,
+										раздачах и мероприятий от нашего проекта.</p>
+
+									<button class="payment-form__btn-next btn--form btn--purple">
+										выбрать способ оплаты
+									</button>
+									<div class="payment-form__agree">
+										<label class="container-label">Я соглашаюсь с политикой конфиденциальности.
+											<input type="checkbox">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<footer class="payment-form__footer payment-form-footer">
+								<div class="payment-form-footer__row">
+
+									<a href="#" class="payment-form-footer__agreement">Условия использования</a>
+
+									<div class="payment-form-footer__links">
+										<a class="payment-form-footer__link" href="https://t.me/Help_Support_PP">
+											<span>Telegram:</span> @Help_Support_PP</a>
+										<a class="payment-form-footer__link" href="mailto:info@paypalych.com">
+											<span>Email:</span> info@paypalych.com</a>
+										<p class="payment-form-footer__license">2022 © Paypalych. все права защищены
+										</p>
+									</div>
+
+								</div>
+							</footer>
+						</div>
+
+						<div class="payment-form-step " style="display:none" data-count="2">
+							<div class="payment-form-cards">
+								<div class="payment-form__container">
+									<h4 class="payment-form__title">Выберите способ оплаты</h4>
+									<div class="payment-form__form">
+										<div class="payment-form__cards">
+
+											<label class="container-radio payment-form__card">
+												<input type="radio" name="radio">
+												<span class="radio-fake">
+													<img src="./images/icons/perfect_money-big.svg" alt="">
+												</span>
+											</label>
+											<label class="container-radio payment-form__card">
+												<input type="radio" name="radio">
+												<span class="radio-fake">
+													<img src="./images/icons/qiwi-crypto.svg" alt="">
+												</span>
+											</label>
+											<label class="container-radio payment-form__card">
+												<input type="radio" name="radio">
+												<span class="radio-fake">
+													<img class="yandex" src="./images/icons/yandex-money.svg" alt="">
+												</span>
+											</label>
+
+											<label class="container-radio payment-form__card">
+												<input type="radio" name="radio">
+												<span class="radio-fake">
+													<img class="visa" src="./images/icons/visa.svg" alt="">
+												</span>
+											</label>
+
+											<label class="container-radio payment-form__card">
+												<input type="radio" checked="checked" name="radio">
+												<span class="radio-fake">
+													<img class="mastercard" src="./images/icons/mastercard.svg" alt="">
+												</span>
+											</label>
+
+											<label class="container-radio payment-form__card payeer">
+												<input type="radio" name="radio">
+												<span class="radio-fake ">
+													<img class="payeer" src="./images/icons/payeer.svg" alt="">
+												</span>
+											</label>
+
+											<label class="container-radio payment-form__card">
+												<input type="radio" name="radio">
+												<span class="radio-fake">
+													<img class="mir" src="./images/icons/mir.svg" alt="">
+												</span>
+											</label>
+
+
+										</div>
+
+										<button class="payment-form__btn-next btn--purple btn--form">
+											выбрать
+										</button>
+										<p class="payment-form__agree">
+											Перед покупкой вы соглашаетесь с пользовательским соглашением.
+										</p>
+									</div>
+								</div>
+								<footer class="payment-form__footer payment-form-footer">
+									<div class="payment-form-footer__row">
+
+										<a href="#" class="payment-form-footer__agreement">Условия использования</a>
+
+										<div class="payment-form-footer__links">
+											<a class="payment-form-footer__link" href="https://t.me/Help_Support_PP">
+												<span>Telegram:</span> @Help_Support_PP</a>
+											<a class="payment-form-footer__link" href="mailto:info@paypalych.com">
+												<span>Email:</span> info@paypalych.com</a>
+											<p class="payment-form-footer__license">2022 © Paypalych. все права защищены
+											</p>
+										</div>
+
+									</div>
+								</footer>
+							</div>
+						</div>
+
+						<div class="payment-form-step payment-form-pay" style="display:none" data-count="3">
+							<div class="payment-form__container">
+								<h4 class="payment-form__title">К оплате: <span class="payment-form__price"> 2 065, 00
+										р</span></h4>
+								<div class="payment-form__box">
+
+									<label for="card-number" class="payment-form-pay__card-number">
+										<p>Введите номер карты</p>
+										<input class="payment-form__input" type="number" id="card-number" maxlength="12"
+											placeholder="8600 0000 0000 0000">
+									</label>
+
+									<div class="payment-form-pay__row">
+										<label for="validy" class="payment-form-pay__validity">
+											<p>Срок действия карты</p>
+											<input class="payment-form__input" type="number" maxlength="5"
+												placeholder="13/25" id="validy">
+										</label>
+										<label for="CVV" class="payment-form-pay__cvc">
+											<p>CVC/CVV код</p>
+											<input class="payment-form__input" type="number" maxlength="3"
+												placeholder="CVC" id="CVV">
+										</label>
+									</div>
+									<label for="email" class="payment-form-pay__email-sm">
+										<p>Электронная почта (не обязательно)</p>
+										<input class="payment-form__input" type="email" placeholder="me@example.com">
+									</label>
+								</div>
+								<button type="submit" class="payment-form__btn-next btn--purple btn--form"
+									data-custom-close="modal">
+									Оплатить
+								</button>
+								<p class="payment-form__agree">
+									Перед покупкой вы соглашаетесь с пользовательским соглашением.
+								</p>
+							</div>
+							<footer class="payment-form__footer payment-form-footer">
+								<div class="payment-form-footer__row">
+
+									<a href="#" class="payment-form-footer__agreement">Условия использования</a>
+
+									<div class="payment-form-footer__links">
+										<a class="payment-form-footer__link" href="https://t.me/Help_Support_PP">
+											<span>Telegram:</span> @Help_Support_PP</a>
+										<a class="payment-form-footer__link" href="mailto:info@paypalych.com">
+											<span>Email:</span> info@paypalych.com</a>
+										<p class="payment-form-footer__license">2022 © Paypalych. все права защищены
+										</p>
+									</div>
+
+								</div>
+							</footer>
+						</div>
+					</form>
+				</main>
+			</div>
+		</div>
+	</div>
+
+	<a href="#scrollUp" class="pure-scroll"><button class="btn-anchor">Наверх</button></a>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__info">
+					<a class="logo" href="./index.html">
+						<img class="logo__img" src="./images/icons/logo.svg" alt="logo">
+					</a>
+					<p class="footer__text">Премиум магазин скинов Fortnite</p>
+					<a class="footer__political-link" href="./privacy-policy.html">
+						<span>Политика конфиденциальности</span>
+					</a>
+					<a class="footer__agreement-link" href="./user-agreement.html">
+						<span>Пользовательское соглашение</span>
+					</a>
+				</div>
+
+				<div class="footer__payment">
+					<p class="footer__payment-text">В данный момент доступны такие типы оплаты:</p>
+					<div class="footer__payment-box">
+						<img class="footer__payment-img" src="./images/icons/perfect_money.svg"
+							alt="perfect_money-icon">
+						<img class="footer__payment-img" src="./images/icons/qiwi-crypto.svg" alt="qiwi-crypto-icon">
+						<img class="footer__payment-img" src="./images/icons/yandex-money.svg" alt="yandex-money-icon">
+						<img class="footer__payment-img" src="./images/icons/visa.svg" alt="visa-icon">
+						<img class="footer__payment-img" src="./images/icons/mastercard.svg" alt="mastercard-icon">
+						<img class="footer__payment-img" src="./images/icons/payeer.svg" alt="payeer-icon">
+						<img class="footer__payment-img" src="./images/icons/mir.svg" alt="mir-icon">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+	<script defer src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/micromodal/0.4.10/micromodal.min.js"
+		integrity="sha512-qcwcAul7d7yUcoz3MmQABiaGDa+gVkaDWgZX6wEd/z3I6z62nQCDW3EqioQG+O+QlGCpxmJLdH5snh4IaDPiPA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+	<script src="js/main.js"></script>
+	<script defer src="js/modal.js"></script>
+	<script defer src="js/modal-card.js"></script>
+	<script defer src="js/rating.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/scroll-up.js"></script>
+
+
+</body>
+
+</html>

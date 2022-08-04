@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fortnite</title>
+	<!-- Chatra {literal} -->
+	<script defer>
+		(function (d, w, c) {
+			w.ChatraID = 'ZfknHTkvBCy3MPkSE';
+			var s = d.createElement('script');
+			w[c] = w[c] || function () {
+				(w[c].q = w[c].q || []).push(arguments);
+			};
+			s.async = true;
+			s.src = 'https://call.chatra.io/chatra.js';
+			if (d.head) d.head.appendChild(s);
+		})(document, window, 'Chatra');
+	</script>
+	<!-- /Chatra {/literal} -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="news-page news">
+	<header class="header">
+		<div class="header__container container">
+
+			<div class="header__row">
+				<div class="header__logo">
+					<a href="./index.html">
+						<img src="./images/icons//logo.svg" alt="logo" />
+					</a>
+				</div>
+				<ul class="header__menu">
+					<li class="header__link "><a href="./index.html">Главная</a></li>
+					<li class="header__link"><a href="./guarantees.html">Гарантии</a></li>
+					<li class="header__link header__link--active"><a href="./news.html">Новости</a></li>
+					<li class="header__link"><a href="./reviews.html">Отзывы</a></li>
+					<li class="header__link"><a href="./distribution.html">Раздача</a></li>
+				</ul>
+				<div class="header__btns">
+					<a href="tel:" class="header__btn-call">
+						<img src="./images/icons/call.svg" alt="phone ico">
+					</a>
+					<button class="header__btn-login" data-micromodal-trigger="login-modal">Войти</button>
+				</div>
+				<!-- NavBtn -->
+				<button class="nav-btn">
+					<span class="nav-btn-icon"></span>
+				</button>
+
+				<!-- MobNav -->
+				<div class="mobile-nav">
+					<div class="header__logo">
+						<img src="./images/icons//logo.svg" alt="logo" />
+					</div>
+					<div class="mobile-nav__item">
+
+						<div class="header__btns">
+							<a href="tel:" class="header__btn-call">
+								<img src="./images/icons/call.svg" alt="phone ico">
+							</a>
+							<button class="header__btn-login">Войти</button>
+						</div>
+
+						<ul>
+							<li class="header__link header__link--active"><a href="./index.html">Главная</a></li>
+							<li class="header__link"><a href="./guarantees.html">Гарантии</a></li>
+							<li class="header__link"><a href="./news/html">Новости</a></li>
+							<li class="header__link"><a href="./reviews.html">Отзывы</a></li>
+							<li class="header__link"><a href="./distribution.html">Раздача</a></li>
+						</ul>
+
+					</div>
+				</div>
+				<!-- //MobNav -->
+			</div>
+		</div>
+
+	</header>
+
+
+	<!-- MODAL LOGIN-FORM -->
+	<section class="login-modal">
+		<div class="modal micromodal-slide" id="login-modal" aria-hidden="true">
+			<div class="modal__overlay" tabindex="-1" data-custom-close="login-modal">
+				<div class="modal__container" role="dialog" aria-modal="true">
+					<form class="login-modal__form login-form">
+						<h2 class="login-modal__title">Войти</h2>
+
+						<label class="login-form__label" for="username">Ваша почта</label>
+						<input class="login-form__input" type="text" id="username" name="username"
+							placeholder="example@gmail.com">
+
+						<label class="login-form__label" for="password">Ваш пароль</label>
+						<input class="login-form__input" type="text" id="password" name="пароль" placeholder=" пароль">
+						<a class="login-form__forgot-password" href="#!">Забыли пароль?</a>
+						<div class="modal__footer">
+							<button type="submit" class="login-form__submit">Войти</button>
+
+							<p class="login-form__text">Или войдите используя:</p>
+							<div class="login-form__row">
+								<a class="login-form__link-auth" href="#!">
+									<img src="./images/google.png" alt="google ico auth">
+								</a>
+								<a class="login-form__link-auth" href="#!">
+									<img src="./images/vk.png" alt="vk ico auth">
+								</a>
+								<a class="login-form__link-auth" href="#!">
+									<img src="./images/facebook.png" alt="facebook ico auth">
+								</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //MODAL LOGIN-FORM -->
+
+
+
+
+	<main class="news__main main" id="scrollUp">
+		<section class="breadcrumbs">
+			<div class="container">
+				<nav aria-label="Breadcrumb" class="breadcrumb">
+					<ul class="breadcrumb__list">
+						<li class="breadcrumb__link"><a href="./index.html">Главная</a></li>
+						<li class="breadcrumb__link breadcrumb__link--current"><span aria-current="page">Новости</span>
+						</li>
+					</ul>
+					<a href="./index.html" class="btn-prev-page">Назад </a>
+				</nav>
+			</div>
+		</section>
+
+
+		<section class="news__articles news-articles">
+			<div class="news-articles__container container">
+				<h1 class="news-articles__title title">Новости игры&nbsp;Fortnite</h1>
+				<div class="news-articles__container-flex">
+
+
+					<article class="news-articles__article article">
+						<a href="#!">
+							<div class="article__img">
+								<picture>
+									<source srcset="./images/news-articles/article-1-mob.jpg"
+										media="(max-width: 1600px)">
+									<img src="./images/news-articles/article-1.jpg" alt="articel-1">
+								</picture>
+							</div>
+						</a>
+						<div class="article__text">
+							<p>Новости игры Fortnite в сентябре</p>
+							<span>20.09.22</span>
+						</div>
+					</article>
+
+					<article class="news-articles__article article">
+						<a href="#!">
+							<div class="article__img">
+								<img src="./images/news-articles/article-2.jpg" alt="articel-1">
+							</div>
+						</a>
+
+						<div class="article__text">
+							<p>Новости игры Fortnite в сентябре</p>
+							<span>20.09.22</span>
+						</div>
+					</article>
+
+					<article class="news-articles__article article">
+						<a href="#!">
+							<div class="article__img">
+								<img src="./images/news-articles/article-3.jpg" alt="articel-1">
+							</div>
+						</a>
+						<div class="article__text">
+							<p>Новости игры Fortnite в сентябре</p>
+							<span>20.09.22</span>
+						</div>
+					</article>
+
+					<article class="news-articles__article article">
+						<a href="#!">
+							<div class="article__img">
+								<img src="./images/news-articles/article-4.jpg" alt="articel-1">
+							</div>
+						</a>
+						<div class="article__text">
+							<p>Новости игры Fortnite в сентябре</p>
+							<span>20.09.22</span>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<a href="#scrollUp" class="pure-scroll"><button class="btn-anchor">Наверх</button></a>
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__info">
+					<a class="logo" href="./index.html">
+						<img class="logo__img" src="./images/icons/logo.svg" alt="logo">
+					</a>
+					<p class="footer__text">Премиум магазин скинов Fortnite</p>
+					<a class="footer__political-link" href="./privacy-policy.html">
+						<span>Политика конфиденциальности</span>
+					</a>
+					<a class="footer__agreement-link" href="./user-agreement.html">
+						<span>Пользовательское соглашение</span>
+					</a>
+				</div>
+
+				<div class="footer__payment">
+					<p class="footer__payment-text">В данный момент доступны такие типы оплаты:</p>
+					<div class="footer__payment-box">
+						<img class="footer__payment-img" src="./images/icons/perfect_money.svg"
+							alt="perfect_money-icon">
+						<img class="footer__payment-img" src="./images/icons/qiwi-crypto.svg" alt="qiwi-crypto-icon">
+						<img class="footer__payment-img" src="./images/icons/yandex-money.svg" alt="yandex-money-icon">
+						<img class="footer__payment-img" src="./images/icons/visa.svg" alt="visa-icon">
+						<img class="footer__payment-img" src="./images/icons/mastercard.svg" alt="mastercard-icon">
+						<img class="footer__payment-img" src="./images/icons/payeer.svg" alt="payeer-icon">
+						<img class="footer__payment-img" src="./images/icons/mir.svg" alt="mir-icon">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/header.js"></script>
+	<script src="js/scroll-up.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/micromodal/0.4.10/micromodal.min.js"
+		integrity="sha512-qcwcAul7d7yUcoz3MmQABiaGDa+gVkaDWgZX6wEd/z3I6z62nQCDW3EqioQG+O+QlGCpxmJLdH5snh4IaDPiPA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="js/modal.js"></script>
+
+
+</body>
+
+</html>

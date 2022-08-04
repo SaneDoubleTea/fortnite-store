@@ -1,0 +1,172 @@
+@media (max-width: 1050px) {
+   .footer {
+      &__payment {
+         display: none;
+      }
+   }
+}
+
+@media (max-width: 768px) {
+
+   .title {
+      font-size: 36px;
+   }
+
+   .breadcrumb {
+      display: none;
+   }
+
+   .guarantees {
+      margin-top: 47px;
+      &__info{
+         margin-bottom: 47px;
+      }
+   }
+   
+
+   .popular-offers {
+      &__slide {
+         height: 300px;
+      }
+   }
+
+   .card-item {
+      width: 230px;
+      height: 300px;
+      border: 6px solid #A473E8;
+
+      &::before {
+         width: 240px;
+         height: 300px;
+      }
+
+      &__img {
+         img {
+            max-width: 235px;
+            max-height: 245px;
+         }
+      }
+
+      &__name,
+      &__price {
+         font-size: 20px;
+      }
+   }
+}
+
+@media (max-width: 560px) {
+
+   .title {
+      font-size: 24px;
+   }
+
+   .guarantees {
+      &__title {
+         margin-bottom: 20px;
+      }
+   }
+
+
+   .popular-offers {
+      &__title {
+         margin-bottom: 30px;
+      }
+
+      &__slide {
+         height: 180px;
+      }
+
+      &__pagination {
+         span {
+            width: 15px;
+            height: 15px;
+
+         }
+      }
+   }
+
+   .card-item {
+      width: 132px;
+      height: 180px;
+
+      &::before {
+         width: 132px;
+         height: 180px;
+         bottom: -12px;
+         left: -12px;
+      }
+
+      &__img {
+         img {
+            max-width: 145px;
+            max-height: 145px;
+         }
+      }
+
+      &__elipse {
+         width: 95px;
+         height: 95px;
+         bottom: 38px;
+         right: 15px;
+      }
+
+      &__name,
+      &__price {
+         font-size: 12px;
+      }
+   }
+
+   .small-img {
+      img {
+         width: 105px;
+         height: 105px;
+      }
+   }
+
+   .footer {
+      padding: 17px 0 30px;
+
+      &__text {
+         margin: 8px 0 12px;
+      }
+
+      &__agreement-link {
+         display: block;
+         width: fit-content;
+         margin-top: 10px;
+      }
+   }
+}
+
+@media (max-width: 400px) {
+   .logo__img {
+      width: 170px;
+   }
+
+   .guarantees {
+      &__text {
+         font-size: 16px;
+         margin-bottom: 25px;
+      }
+   }
+
+
+   .popular-offers {
+      margin-bottom: 30px;
+
+      &__title {
+         font-size: 16px;
+      }
+   }
+
+   .footer {
+      &__text {
+         font-size: 12px;
+      }
+
+      &__political-link,
+      &__agreement-link {
+         font-size: 10px;
+      }
+   }
+}
